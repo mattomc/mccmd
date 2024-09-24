@@ -5,9 +5,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=minecraft
-Group=minecraft
-WorkingDirectory=/srv/minecraft
+User=uga
+Group=uga
+WorkingDirectory=/uga/craftbukkit/
 # you might have to change this if you're not using the openjdk
 ExecStart=/usr/bin/java -Xmx1024M -Xms1024M -jar craftbukkit.jar --noconsole
 
